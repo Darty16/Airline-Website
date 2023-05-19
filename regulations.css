@@ -1,0 +1,157 @@
+.regulations{
+    margin-top: -20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:  max(20px, 2.8vw) 0;
+    position: relative;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    width: 90%;
+    font-size: 19px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 4em auto;
+    background: rgba(196, 193, 193, 0.48);
+    backdrop-filter: blur(8px);
+    color: #323361;
+    padding: 2em 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.regTitle {
+    text-align: center;
+    position: relative;
+}
+
+body {
+    background-image: rgba(165, 161, 161, 0.48);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 0px 5px #cccccc;
+  backdrop-filter: blur(8px);
+}
+
+.luggage {
+    display: flex;
+    margin:0;
+    padding: 1em 2em;
+    gap: 1vw;
+    
+}
+
+.luggage img {
+    width: 20%;
+    border-radius: 5px;
+    margin-right: 1vw;
+    margin-left: -2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.checkedLuggage {
+    display: flex;
+    margin:0;
+    padding: 1em 2em;
+    gap: 1vw;
+}
+
+.checkedLuggage img {
+    width: 20%;
+    border-radius: 5px;
+    margin-right: 1vw;
+    margin-left: -2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.checkIn {
+    display: flex;
+    margin:0;
+    padding: 1em 2em;
+    gap: 1vw;
+}
+
+.checkIn img {
+    width: 20%;
+    border-radius: 5px;
+    margin-right: 1vw;
+    margin-left: -2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.boarding {
+    display: flex;
+    margin:0;
+    padding: 1em 2em;
+    gap: 1vw;
+}
+
+.boarding img {
+    width: 20%;
+    border-radius: 5px;
+    margin-right: 1vw;
+    margin-left: -2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.delay {
+    display: flex;
+    margin:0;
+    padding: 1em 2em;
+    gap: 1vw;
+}
+
+.delay img {
+    width: 20%;
+    border-radius: 5px;
+    margin-right: 1vw;
+    margin-left: -2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.inFlight {
+    display: flex;
+    margin:0;
+    padding: 1em 2em;
+    gap: 1vw;
+}
+
+.inFlight img {
+    width: 20%;
+    height: 10%;
+    border-radius: 5px;
+    margin-right: 1vw;
+    margin-left: -2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.assistance {
+    display: flex;
+    margin:0;
+    padding: 1em 2em;
+    gap: 1vw;
+}
+
+.assistance img {
+    width: 20%;
+    height: 10%;
+    border-radius: 5px;
+    margin-right: 1vw;
+    margin-left: -2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(112,112,112,1);
+    border-radius: 1px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color:  #323361;
+    border-radius: 1px;
+  }
+
+

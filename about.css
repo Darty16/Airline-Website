@@ -1,0 +1,68 @@
+body {
+    /* overflow: hidden; */
+    background-image: url("../images/gradientBack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    /* height: 92.5vh; */
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(165, 161, 161, 0.116);
+    border-radius: 1px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color:  #323361;
+    border-radius: 1px;
+  }
+
+.about {
+    width: 70%;
+    font-size: 19px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 4em auto;
+    backdrop-filter: blur(8px);
+    color: #ffff;
+    padding: 2em 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.h3 {
+    color: #323361;
+    
+}
+
+.h4 {
+    color: #323361;
+}
+
+.h5 {
+    color: #323361;
+}
+
+.h6 {
+    color: #323361;
+}
+
+.about .title {
+    text-align: center;
+    /* color: #1034A6; */
+    /* text-transform: uppercase; */
+    font-style: bold;
+    /* font-size: max(20px, 2.8vw); */
+    /* margin: 0 0 2% 0; */
+    letter-spacing: 2px;
+    z-index: 33;
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}

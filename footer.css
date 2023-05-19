@@ -1,0 +1,113 @@
+.footer {
+    padding: max(17.5px, 2vw) 3%;
+    background-color: #f2f2f4;  
+    color: #fff;
+}
+.mainRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: max(17.5px, 2vw);
+}
+.mainRow .leftSide {
+  width: 30%;
+  margin: auto 0;
+}
+
+.mainRow .leftSide .topText{
+  line-height: 4vh;
+  /* border: 1px solid red; */
+  font-size: max(16px, 0.8vw);
+  letter-spacing: 0.2vh;
+  color:#323361;
+}
+/* .topText {
+  margin-bottom: 20%;
+} */
+/* .name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: max(21px, 1.8vw);
+  margin-bottom: 15%;
+}
+.name .logo {
+  width: 20%;
+  height: max(21px, 1.7vw);
+} */
+.footer .mainRow .rightSide {
+  width: 57%;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 1px solid red; */
+}
+
+.socialMedia{
+    display: flex;
+    gap: 2vw;
+    margin-top: 15%;
+    color: #323361;
+}
+
+.footer .mainRow .rightSide form {
+  text-align: center;
+  background: rgba(177, 177, 177, 0.373);
+  width: 70%;
+  /* margin: 0 auto; */
+  padding: 2vh;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #cccccc;
+  backdrop-filter: blur(8px);
+  /* position: fixed; */
+  /* top: 5%; */
+  /* left: 20%; */
+  /* margin: 0 auto; */
+}
+
+.footer .mainRow .rightSide form h2{
+  text-align: center;
+  color: #323361;
+  letter-spacing: 1vh;
+  text-transform: uppercase;
+}
+
+.inputi{
+  width: 90%;
+font-weight: 300;
+color: #fff;
+font-size: 14px;
+letter-spacing: 1.2px;
+padding: max(5px, 0.35vw);
+outline: none;
+background: rgba(255, 255, 255, 0);
+border: none;
+border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+margin: max(10px, 1vw) 0;
+}
+
+::placeholder{
+  color: #fff;
+}
+
+.footer .mainRow .rightSide form button{
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.8rem;;
+  font-size:  max(13.5px, 0.85vw);
+  width: 30%;
+  cursor: pointer;
+  border: none;
+ background-color: #323361;
+ color: #fff;
+
+}
+
+.bottomRow{
+    bottom: 0;
+    text-align: center;
+    color:#323361;
+}

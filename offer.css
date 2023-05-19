@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #fff;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:  max(20px, 2.8vw) 0;
+    color: #323361;
+    position: relative;
+    background-color: #f7f7f7;
+    -webkit-box-shadow: 0px 11px 17px 3px rgba(224, 224, 224, 0.46);
+    -moz-box-shadow: 0px 11px 17px 3px rgba(224, 224, 224, 0.46);
+    box-shadow: 0px 11px 17px 3px rgba(224, 224, 224, 0.46);
+}
+.backdrop{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+h1{
+    text-align: center;
+    /* color: #1034A6; */
+    /* text-transform: uppercase; */
+    font-style: bold;
+    font-size: max(20px, 2.8vw);
+    margin: 0 0 2% 0;
+    letter-spacing: 2px;
+    z-index: 33;
+}
+
+.offerDescription{
+    text-align: center;
+    /* color: #1034A6; */
+    font-size: max(18px, 1.2vw);
+    padding: 0 max(60px, 6vw);
+    line-height: 3vh;
+    z-index: 33;
+    /* width: 50%; */
+}
+
+.container{
+    padding: 3% 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4vh;
+}
+
+/* img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+} */
+p {
+  line-height: 1.5;
+  margin: 0 auto 1em;
+}
+h3 {
+  line-height: 1;
+  margin: 0 auto 1rem;
+  padding: 0;
+  display: block;
+  font-weight: 600;
+}
+
+.cardContainer{
+    max-width: 400px;
+}
+
+.card {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 470px;
+  align-items: stretch;
+  /* max-width: 480px;
+  max-width: 340px;
+  max-width: 360px; */
+  background-color: #fff;
+  border-radius: 5px;
+  /* border: 1px solid #1034A6; */
+  /* padding: .75rem; */
+  padding: 1rem;
+  box-shadow: 
+    0 0 24px -12px 
+    rgba(16,52,166,0.6);
+  position: relative;
+  transition: background-color 0.5s ease-out;
+}
+
+.card:hover {
+    background-color: #F0B91D; /* set new background color on hover */
+    border: 1px solid transparent;
+    color: #fff;
+  }
+  
+  .card .cardTitle{
+    display: flex;
+    color: #000;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(112,112,112,1);
+    border-radius: 1px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color:  #323361;
+    border-radius: 1px;
+  }
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  text-align: center;
+  border-radius: 5px;
+  /* contain: contents; */
+  margin-bottom: 1rem;
+  box-shadow: 
+    0 16px 24px -12px 
+    rgba(black,0.15);
+    transition: transform 0.3s ease-out;
+}
+
+.card:hover img {
+    transform: scale(1.15); /* increase image size on hover */
+  }
+
+.button{
+    text-transform: capitalize;
+    justify-content: center;
+    margin: 15px auto;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.8rem;
+    font-size: 16px;
+    display: flex;
+    /* width: 100%; */
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #323361;
+    color: #fff;
+}
+
+h3 {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}

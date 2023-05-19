@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar, .modal-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track, .modal-content::-webkit-scrollbar-track {
+  background: rgba(112, 112, 112, 1);
+  border-radius: 1px;
+}
+body::-webkit-scrollbar-thumb, .modal-content::-webkit-scrollbar-thumb {
+  background-color: #323361;
+  border-radius: 1px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 85vw;
+  margin: auto;
+  overflow-x: scroll;
+  /* overflow: scroll; */
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 2vh 1vh;
+  /* padding: 1vw; */
+  /* padding: 8px; */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding: 2vh 1vh;
+  /* padding-top: 2vh; */
+  /* padding-bottom: 2vh; */
+  text-align: center;
+  background-color: #323361;
+  color: white;
+  border: 1px solid #ddd;
+}
+
+.actions{
+  display: flex;
+}
+
+@media (max-width: 1125px){
+  table{
+    width: 300px;
+    overflow-x: auto;
+  }
+}
+
+
+ 

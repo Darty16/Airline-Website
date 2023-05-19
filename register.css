@@ -1,0 +1,144 @@
+.titleContain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.logoContain img {
+    max-width: 100%;
+}
+
+.nameSurname, .passwords {
+    display:flex;
+    gap: 2vw;
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ffffff;
+   
+}
+
+.nameSurname, .passwords {
+    display:flex;
+    gap: 2vw;
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("./../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #323361;
+    letter-spacing: 1vh;
+
+}
+
+p {
+    text-align: center;
+    color:#323361;
+}
+
+form {
+    text-align: center;
+    background: rgba(165, 161, 161, 0.48);
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #cccccc;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 3%;
+    left: 20%;
+    /* margin: 0 auto; */
+}
+
+.errorMessage{
+    margin: 2vh auto;
+    padding: 1vh;
+    letter-spacing: 0.3vh;
+    /* line-height: 1vh; */
+    width: 40%;
+    color: #F0B91D;
+    font-weight: bolder;
+    border-bottom: 1px solid #323361;
+    border-top: 1px solid #323361;
+}
+
+.registerButton{
+    margin: 15px auto;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.8rem;;
+    font-size: 16px;
+    width: 30%;
+    cursor: pointer;
+   background-color: #323361;
+   color: white;
+
+}
+
+.loginshort {
+    font-weight: bold;
+    text-decoration: none;
+    color:#323361;
+}
+
+a[class="register"] {
+   text-decoration: none;
+   color: #ffffff;
+   
+   
+}
+
+.login {
+    color:#323361;
+    text-decoration: none;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    margin-top: 4vh;
+    color:#323361;
+}
+
+.inputi{
+    width: 90%;
+  font-weight: 300;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  padding: 10px 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: max(10px, 1vw) 0;
+}
+
+::placeholder{
+    color: #fff;
+}

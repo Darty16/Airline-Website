@@ -1,0 +1,161 @@
+.nav {
+    position: sticky;
+    top: 0;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    align-items: center;
+    z-index: 9999;
+    background-color: #F0B91D;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    /* border: 1px solid red; */
+    color: #fff;
+    /* border: 1px solid red; */
+    /* border: 0.5px solid red; */
+    
+  }
+
+  .nav .logo {
+    width: 30%;
+  }
+
+  .nav .logo img{
+    width: 100%;
+    height: max(21px, 1.8vw);
+  }
+  
+  .nav .leftSide {
+    display: flex; 
+    gap: 1rem;
+    flex: 1;
+    height: max(21px, 1.8vw);
+  }
+  .logoContent {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: max(25px, 0.9vw);
+    padding: max(10px, 1vw) 0;
+    text-decoration: none;
+  }
+  .title {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 0.05vh;
+    color: #323361;
+  }
+
+  
+  .nav .nav-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-link-container {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    padding: max(10px, 1vw) 0;
+  
+  }
+  .nav-link {
+    color: #323361;
+    font-size: max(20px, 0.9vw);
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+  }
+  
+  .nav-link::before {
+    display: flex;
+    justify-content: center;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #f9f9fb;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+  }
+  /* &:hover {
+    .nav-link svg {
+      transform: rotate(-180deg);
+      -webkit-transform: rotate(-180deg);
+      transition: transform ease-in-out 0.2s;
+    }
+  } */
+  
+  .nav-link:hover::before {
+    width: 80%;
+  }
+  
+  .nav .rightSide {
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+    height: max(15px, 1.3vw);
+    align-items: center;
+    gap: 1rem;
+    padding: max(10px, 1vw) 0;
+  }
+  
+    .logIn {
+      display: flex;
+      align-items: center;
+      color: #323361;
+      font-size: max(20px, 0.7vw);
+      text-decoration: none;
+    }
+  
+    .createAccount, .bookings {
+      background-color: #323361;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-size: max(20px, 0.7vw);
+      text-decoration: none;
+    }
+  
+    /* .mode {
+      background-color: var(--gray-background);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--gray-border);
+      height: max(17px, 0.9vh);
+      width: max(17px, 0.9vh);
+      border-radius: 50%;
+    } */
+  /* .nav {
+  } */
+  
+  .nav_sticky {
+    background-color: var(--background-color);
+  }
+  
+  @media (min-width: 1043px) {
+    .nav .mobile-nav {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1042px) {
+    .nav .rightSide,
+    .nav .nav-links,
+    .nav .leftSide {
+      display: none;
+      height: max(20px, 1vw);
+    }
+  
+    /* // .nav .leftSide{
+    //   display: flex;
+    //   justify-content: center;
+    //   // align-items: center;
+    // } */
+  }
